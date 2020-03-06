@@ -7,5 +7,9 @@ def prime?(n)
   end
 end
 
+puts prime?(2)
+puts prime?(3)
+puts prime?(4)
+puts prime?(5)
 puts prime?(9)
 puts prime?(11)
