@@ -7,9 +7,9 @@ def prime?(n)
 end
 
 
-puts prime?(6)
-puts prime?(5)
-puts prime?(-1)
+puts prime?(6).inspect
+puts prime?(5).inspect
+puts prime?(-1).inspect
 
 #  collection = (1..n).to_a.collect{ |num| num.odd? }
 # collection.collect{|arg| code to execute using arg}
