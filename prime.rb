@@ -1,5 +1,5 @@
 def prime?(n)
-  if n.even? || n < 1
+  if n.even? || n <= 1
     false
   else
     array = (1..n).to_a.select{|num| num.odd?}
