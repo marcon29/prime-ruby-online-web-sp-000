@@ -1,6 +1,6 @@
 def prime?(n)
   collection = (1..n).to_a
-  collection
+  #collection
 end
 
-prime?(5)
+puts prime?(5)
