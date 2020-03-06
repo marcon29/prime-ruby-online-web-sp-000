@@ -1,8 +1,5 @@
 def prime?(n)
-  array = []
-  (1..n).to_a.collect do |num|
-    array << num if num.odd?
-  end
+  (1..n).to_a
 end
 
 puts prime?(5)
