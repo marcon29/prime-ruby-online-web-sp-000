@@ -6,7 +6,6 @@ def prime?(n)
   end
 end
   #(1..n).to_a
-end
 
 puts prime?(6)
 puts prime?(5)
