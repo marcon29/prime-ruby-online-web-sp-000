@@ -1,5 +1,10 @@
 def prime?(n)
-  (1..n).to_a
+  if n.even? && n > 3
+    false
+  else
+    true
+  end
+  #(1..n).to_a
 end
 
 puts prime?(5)
