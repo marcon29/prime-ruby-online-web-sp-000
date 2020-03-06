@@ -2,10 +2,10 @@ def prime?(n)
   if n.even? || n < 1
     false
   else
-    true
+    (1..n).to_a
   end
 end
-  #(1..n).to_a
+  
 
 puts prime?(6)
 puts prime?(5)
