@@ -5,7 +5,7 @@ def prime?(n)
     (1..n).to_a
   end
 end
-  
+
 
 puts prime?(6)
 puts prime?(5)
