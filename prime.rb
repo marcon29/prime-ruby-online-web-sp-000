@@ -1,9 +1,10 @@
 def prime?(n)
-  if n.even? && n > 3
+  if n.even? || n < 1
     false
   else
     true
   end
+end
   #(1..n).to_a
 end
 
