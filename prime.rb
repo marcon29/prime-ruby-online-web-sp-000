@@ -7,5 +7,5 @@ def prime?(n)
   end
 end
 
-puts prime?(9).inspect
-puts prime?(11).inspect
+puts prime?(9)
+puts prime?(11)
