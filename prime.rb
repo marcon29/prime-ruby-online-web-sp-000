@@ -8,4 +8,3 @@ end
 
 puts prime?(9).inspect
 puts prime?(11).inspect
-
