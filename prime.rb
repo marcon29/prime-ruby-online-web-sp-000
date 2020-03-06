@@ -2,10 +2,9 @@ def prime?(n)
   if n.even? || n < 1
     false
   else
-    (1..n).to_a
+    collection = (1..n).to_a.select{|num| num.odd?}
   end
 end
-
 
 puts prime?(6).inspect
 puts prime?(5).inspect
