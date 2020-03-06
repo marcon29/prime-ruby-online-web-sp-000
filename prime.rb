@@ -2,7 +2,7 @@ def prime?(n)
   if n.even? || n < 1
     false
   else
-    collection = (1..n).to_a.select{|num| num.odd?}
+    array = (1..n).to_a.select{|num| num.odd?}
   end
 end
 
